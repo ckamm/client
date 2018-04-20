@@ -8,6 +8,7 @@ import chatSendAnimation from '../chat/conversation/messages/wrapper/chat-send.s
 import chatInboxRow from '../chat/inbox/row/index.stories'
 import chatInfoPanel from '../chat/conversation/info-panel/index.stories'
 import chatInfoPanelNotifications from '../chat/conversation/info-panel/notifications/index.stories'
+import chatInputArea from '../chat/conversation/input-area/index.stories'
 // import chatList from '../chat/conversation/list/index.stories'
 import chatCreateChannel from '../chat/create-channel/index.stories'
 import chatManageChannels from '../chat/manage-channels/index.stories'
@@ -46,6 +47,7 @@ const stories = {
   chatInboxRow,
   chatInfoPanel,
   chatInfoPanelNotifications,
+  chatInputArea,
   // chatList,
   chatManageChannels,
   chatUserMentionHud,
