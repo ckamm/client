@@ -2474,7 +2474,7 @@ exports[`Storyshots Chat/Conversation/Input Editing 1`] = `
                       "wrap": "off",
                     }
                   }
-                  value=""
+                  value="some text"
                 />
               </div>
               <div>
@@ -2837,16 +2837,6 @@ exports[`Storyshots Chat/Conversation/Input Normal 1`] = `
 exports[`Storyshots Chat/Conversation/Input Pending waiting 1`] = `
 .css-0,
 [data-css-0] {
-  color: rgba(0, 0, 0, 0.40);
-}
-
-.css-0:hover,
-[data-css-0]:hover {
-  color: rgba(0, 0, 0, 0.75);
-}
-
-.css-2,
-[data-css-2] {
   font-size: 11px;
   line-height: 15px;
   color: rgba(0, 0, 0, 0.40);
@@ -2861,8 +2851,8 @@ exports[`Storyshots Chat/Conversation/Input Pending waiting 1`] = `
   -webkit-flex-grow: 1;
 }
 
-.css-3,
-[data-css-3] {
+.css-1,
+[data-css-1] {
   font-size: 11px;
   line-height: 15px;
   color: rgba(0, 0, 0, 0.20);
@@ -3017,6 +3007,233 @@ exports[`Storyshots Chat/Conversation/Input Pending waiting 1`] = `
                   value=""
                 />
               </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <span
+                className="css-0"
+                onClick={undefined}
+                title={undefined}
+              >
+                
+              </span>
+              <span
+                className="css-1"
+                onClick={[Function]}
+                title={undefined}
+              >
+                *bold*, _italics_, \`code\`, &gt;quote
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Chat/Conversation/Input Typing 1 1`] = `
+.css-0,
+[data-css-0] {
+  color: rgba(0, 0, 0, 0.40);
+}
+
+.css-0:hover,
+[data-css-0]:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.css-2,
+[data-css-2] {
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.40);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: OpenSans;
+  font-weight: 400;
+  flex-grow: 1;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  text-align: left;
+  -webkit-flex-grow: 1;
+}
+
+.css-3,
+[data-css-3] {
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.40);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: OpenSans;
+  font-weight: 600;
+}
+
+.css-4,
+[data-css-4] {
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.20);
+  cursor: text;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: OpenSans;
+  font-weight: 400;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 0;
+  text-align: right;
+}
+
+<div
+  style={
+    Object {
+      "flex": 1,
+      "overflow": "auto",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 750,
+          "justifyContent": "flex-start",
+          "width": 500,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "stretch",
+            "alignSelf": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "width": 500,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderTop": "solid 1px rgba(0, 0, 0, 0.05)",
+              "display": "flex",
+              "flexDirection": "row",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "display": "flex",
+                "flexDirection": "column",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <input
+                multiple={true}
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+                type="file"
+              />
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderBottom": "1px solid rgba(0, 0, 0, 0)",
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginTop": 8,
+                    "textAlign": "left",
+                    "width": "100%",
+                  }
+                }
+              >
+                <style>
+                  ::-webkit-input-placeholder { color: rgba(0,0,0,.2); }
+                </style>
+                <textarea
+                  autoFocus={false}
+                  className="mousetrap"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={undefined}
+                  onCompositionEnd={[Function]}
+                  onCompositionStart={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  placeholder="Write a message"
+                  readOnly={undefined}
+                  rows={1}
+                  style={
+                    Object {
+                      "WebkitFontSmoothing": "antialiased",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "border": "none",
+                      "color": "rgba(0, 0, 0, 0.75)",
+                      "flex": 1,
+                      "fontFamily": "OpenSans",
+                      "fontSize": 13,
+                      "fontWeight": 400,
+                      "height": "initial",
+                      "lineHeight": "17px",
+                      "maxHeight": 101,
+                      "minHeight": 21,
+                      "outlineWidth": 0,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                      "resize": "none",
+                      "textAlign": "left",
+                      "textRendering": "optimizeLegibility",
+                      "width": "100%",
+                      "wrap": "off",
+                    }
+                  }
+                  value=""
+                />
+              </div>
               <div>
                 <span
                   className="css-0"
@@ -3086,10 +3303,601 @@ exports[`Storyshots Chat/Conversation/Input Pending waiting 1`] = `
                 onClick={undefined}
                 title={undefined}
               >
-                
+                <span
+                  className="css-3"
+                  onClick={undefined}
+                  title={undefined}
+                >
+                  chris
+                </span>
+                 is typing
               </span>
               <span
-                className="css-3"
+                className="css-4"
+                onClick={[Function]}
+                title={undefined}
+              >
+                *bold*, _italics_, \`code\`, &gt;quote
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Chat/Conversation/Input Typing 2 1`] = `
+.css-0,
+[data-css-0] {
+  color: rgba(0, 0, 0, 0.40);
+}
+
+.css-0:hover,
+[data-css-0]:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.css-2,
+[data-css-2] {
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.40);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: OpenSans;
+  font-weight: 400;
+  flex-grow: 1;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  text-align: left;
+  -webkit-flex-grow: 1;
+}
+
+.css-3,
+[data-css-3] {
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.40);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: OpenSans;
+  font-weight: 600;
+}
+
+.css-4,
+[data-css-4] {
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.20);
+  cursor: text;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: OpenSans;
+  font-weight: 400;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 0;
+  text-align: right;
+}
+
+<div
+  style={
+    Object {
+      "flex": 1,
+      "overflow": "auto",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 750,
+          "justifyContent": "flex-start",
+          "width": 500,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "stretch",
+            "alignSelf": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "width": 500,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderTop": "solid 1px rgba(0, 0, 0, 0.05)",
+              "display": "flex",
+              "flexDirection": "row",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "display": "flex",
+                "flexDirection": "column",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <input
+                multiple={true}
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+                type="file"
+              />
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderBottom": "1px solid rgba(0, 0, 0, 0)",
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginTop": 8,
+                    "textAlign": "left",
+                    "width": "100%",
+                  }
+                }
+              >
+                <style>
+                  ::-webkit-input-placeholder { color: rgba(0,0,0,.2); }
+                </style>
+                <textarea
+                  autoFocus={false}
+                  className="mousetrap"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={undefined}
+                  onCompositionEnd={[Function]}
+                  onCompositionStart={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  placeholder="Write a message"
+                  readOnly={undefined}
+                  rows={1}
+                  style={
+                    Object {
+                      "WebkitFontSmoothing": "antialiased",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "border": "none",
+                      "color": "rgba(0, 0, 0, 0.75)",
+                      "flex": 1,
+                      "fontFamily": "OpenSans",
+                      "fontSize": 13,
+                      "fontWeight": 400,
+                      "height": "initial",
+                      "lineHeight": "17px",
+                      "maxHeight": 101,
+                      "minHeight": 21,
+                      "outlineWidth": 0,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                      "resize": "none",
+                      "textAlign": "left",
+                      "textRendering": "optimizeLegibility",
+                      "width": "100%",
+                      "wrap": "off",
+                    }
+                  }
+                  value=""
+                />
+              </div>
+              <div>
+                <span
+                  className="css-0"
+                  onClick={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  style={
+                    Object {
+                      "WebkitFontSmoothing": "antialiased",
+                      "cursor": "pointer",
+                      "fontFamily": "kb",
+                      "fontSize": 16,
+                      "fontStyle": "normal",
+                      "fontVariant": "normal",
+                      "fontWeight": "normal",
+                      "lineHeight": 1,
+                      "paddingRight": 8,
+                      "paddingTop": 8,
+                      "speak": "none",
+                      "textTransform": "none",
+                      "userSelect": "none",
+                    }
+                  }
+                >
+                  
+                </span>
+              </div>
+              <div>
+                <span
+                  className="css-0"
+                  onClick={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  style={
+                    Object {
+                      "WebkitFontSmoothing": "antialiased",
+                      "cursor": "pointer",
+                      "fontFamily": "kb",
+                      "fontSize": 16,
+                      "fontStyle": "normal",
+                      "fontVariant": "normal",
+                      "fontWeight": "normal",
+                      "lineHeight": 1,
+                      "paddingRight": 8,
+                      "paddingTop": 8,
+                      "speak": "none",
+                      "textTransform": "none",
+                      "userSelect": "none",
+                    }
+                  }
+                >
+                  
+                </span>
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <span
+                className="css-2"
+                onClick={undefined}
+                title={undefined}
+              >
+                <span
+                  className="css-3"
+                  onClick={undefined}
+                  title={undefined}
+                >
+                  chris
+                </span>
+                 and 
+                <span
+                  className="css-3"
+                  onClick={undefined}
+                  title={undefined}
+                >
+                  strib
+                </span>
+                 are typing
+              </span>
+              <span
+                className="css-4"
+                onClick={[Function]}
+                title={undefined}
+              >
+                *bold*, _italics_, \`code\`, &gt;quote
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Chat/Conversation/Input Typing 3 1`] = `
+.css-0,
+[data-css-0] {
+  color: rgba(0, 0, 0, 0.40);
+}
+
+.css-0:hover,
+[data-css-0]:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.css-2,
+[data-css-2] {
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.40);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: OpenSans;
+  font-weight: 400;
+  flex-grow: 1;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  text-align: left;
+  -webkit-flex-grow: 1;
+}
+
+.css-3,
+[data-css-3] {
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.40);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: OpenSans;
+  font-weight: 600;
+}
+
+.css-4,
+[data-css-4] {
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.20);
+  cursor: text;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: OpenSans;
+  font-weight: 400;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 0;
+  text-align: right;
+}
+
+<div
+  style={
+    Object {
+      "flex": 1,
+      "overflow": "auto",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 750,
+          "justifyContent": "flex-start",
+          "width": 500,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "stretch",
+            "alignSelf": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "width": 500,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderTop": "solid 1px rgba(0, 0, 0, 0.05)",
+              "display": "flex",
+              "flexDirection": "row",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "display": "flex",
+                "flexDirection": "column",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <input
+                multiple={true}
+                onChange={[Function]}
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+                type="file"
+              />
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#ffffff",
+                    "borderBottom": "1px solid rgba(0, 0, 0, 0)",
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "marginLeft": 8,
+                    "marginRight": 8,
+                    "marginTop": 8,
+                    "textAlign": "left",
+                    "width": "100%",
+                  }
+                }
+              >
+                <style>
+                  ::-webkit-input-placeholder { color: rgba(0,0,0,.2); }
+                </style>
+                <textarea
+                  autoFocus={false}
+                  className="mousetrap"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onClick={undefined}
+                  onCompositionEnd={[Function]}
+                  onCompositionStart={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  placeholder="Write a message"
+                  readOnly={undefined}
+                  rows={1}
+                  style={
+                    Object {
+                      "WebkitFontSmoothing": "antialiased",
+                      "backgroundColor": "rgba(0, 0, 0, 0)",
+                      "border": "none",
+                      "color": "rgba(0, 0, 0, 0.75)",
+                      "flex": 1,
+                      "fontFamily": "OpenSans",
+                      "fontSize": 13,
+                      "fontWeight": 400,
+                      "height": "initial",
+                      "lineHeight": "17px",
+                      "maxHeight": 101,
+                      "minHeight": 21,
+                      "outlineWidth": 0,
+                      "paddingBottom": 0,
+                      "paddingTop": 0,
+                      "resize": "none",
+                      "textAlign": "left",
+                      "textRendering": "optimizeLegibility",
+                      "width": "100%",
+                      "wrap": "off",
+                    }
+                  }
+                  value=""
+                />
+              </div>
+              <div>
+                <span
+                  className="css-0"
+                  onClick={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  style={
+                    Object {
+                      "WebkitFontSmoothing": "antialiased",
+                      "cursor": "pointer",
+                      "fontFamily": "kb",
+                      "fontSize": 16,
+                      "fontStyle": "normal",
+                      "fontVariant": "normal",
+                      "fontWeight": "normal",
+                      "lineHeight": 1,
+                      "paddingRight": 8,
+                      "paddingTop": 8,
+                      "speak": "none",
+                      "textTransform": "none",
+                      "userSelect": "none",
+                    }
+                  }
+                >
+                  
+                </span>
+              </div>
+              <div>
+                <span
+                  className="css-0"
+                  onClick={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  style={
+                    Object {
+                      "WebkitFontSmoothing": "antialiased",
+                      "cursor": "pointer",
+                      "fontFamily": "kb",
+                      "fontSize": 16,
+                      "fontStyle": "normal",
+                      "fontVariant": "normal",
+                      "fontWeight": "normal",
+                      "lineHeight": 1,
+                      "paddingRight": 8,
+                      "paddingTop": 8,
+                      "speak": "none",
+                      "textTransform": "none",
+                      "userSelect": "none",
+                    }
+                  }
+                >
+                  
+                </span>
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <span
+                className="css-2"
+                onClick={undefined}
+                title={undefined}
+              >
+                <span
+                  className="css-3"
+                  onClick={undefined}
+                  title={undefined}
+                >
+                  chris, strib, fred
+                </span>
+                 are typing
+              </span>
+              <span
+                className="css-4"
                 onClick={[Function]}
                 title={undefined}
               >
