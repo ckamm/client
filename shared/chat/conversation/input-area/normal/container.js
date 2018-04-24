@@ -1,4 +1,5 @@
 // @flow
+import * as React from 'react'
 import * as Constants from '../../../../constants/chat2'
 import * as Types from '../../../../constants/types/chat2'
 import * as Chat2Gen from '../../../../actions/chat2-gen'
@@ -18,7 +19,7 @@ import {
   type Dispatch,
 } from '../../../../util/container'
 import {isEqual, throttle} from 'lodash-es'
-import mentionHoc from '../mention-handler-hoc'
+import mentionHoc, {type PropsFromContainer} from '../mention-handler-hoc'
 
 type OwnProps = {
   focusInputCounter: number,
@@ -154,6 +155,9 @@ const mergeProps = (stateProps, dispatchProps, ownProps: OwnProps) => ({
 // Standalone throttled function to ensure we never accidentally recreate it and break the throttling
 const throttled = throttle((f, param) => f(param), 1000)
 
+// For some reason, flow can't infer the type of mentionHoc here.
+const MentionHocInput: React.ComponentType<PropsFromContainer> = mentionHoc(Input)
+
 export default compose(
   connect(mapStateToProps, mapDispatchToProps, mergeProps),
   withStateHandlers(
@@ -227,6 +231,5 @@ export default compose(
         this.props.inputFocus()
       }
     },
-  }),
-  mentionHoc
-)(Input)
+  })
+)(MentionHocInput)
