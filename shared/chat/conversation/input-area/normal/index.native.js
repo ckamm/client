@@ -130,27 +130,29 @@ const Typing = () => (
 )
 
 const Action = ({text, onSubmit, isEditing, pendingWaiting, openFilePicker, insertMentionMarker}) =>
-  text && !pendingWaiting ? (
+  text ? (
     <Box style={styles.actionText}>
       <Text type="BodyBigLink" onClick={onSubmit}>
         {isEditing ? 'Save' : 'Send'}
       </Text>
     </Box>
   ) : (
-    <Box style={styles.actionButtonContainer}>
-      <Icon
-        onClick={insertMentionMarker}
-        type="iconfont-mention"
-        style={styles.mentionMarkerStyle}
-        iconStyle={styles.actionButtonIcon}
-      />
-      <Icon
-        onClick={openFilePicker}
-        type="iconfont-camera"
-        style={styles.actionButton}
-        iconStyle={styles.actionButtonIcon}
-      />
-    </Box>
+    !pendingWaiting && (
+      <Box style={styles.actionButtonContainer}>
+        <Icon
+          onClick={insertMentionMarker}
+          type="iconfont-mention"
+          style={styles.mentionMarkerStyle}
+          iconStyle={styles.actionButtonIcon}
+        />
+        <Icon
+          onClick={openFilePicker}
+          type="iconfont-camera"
+          style={styles.actionButton}
+          iconStyle={styles.actionButtonIcon}
+        />
+      </Box>
+    )
   )
 
 const actionButton = {
